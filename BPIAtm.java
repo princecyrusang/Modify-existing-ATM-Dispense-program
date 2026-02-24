@@ -4,7 +4,7 @@ public class BPIAtm {
 
         ATMDispenseChain atmDispenser = new ATMDispenseChain();
 
-        int amount = 2970; // Try: 2970, 270, 250
+        int amount = 2970;
 
         if (amount % 10 != 0) {
             System.out.println("Amount should be in multiples of 10.");
